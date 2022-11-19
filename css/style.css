@@ -1,0 +1,83 @@
+#logo{
+    display: block;
+    background-color: #60777f;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+nav {
+	background: #60777F;
+	color: white;
+	height: 50px;
+	padding-left: 18px;
+	border-radius: 0px;
+	border: 2px solid #60777F;
+}
+nav ul, nav li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+nav ul {
+	width: 100%;
+}
+nav li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+nav a {
+	display: block;
+	padding: 0 14px;
+	color: #FFFFFF;
+    font-size: xx-large;
+}
+nav li a:hover {
+	color: black;
+	background: #F2F2F2;
+}
+h1{
+    color:#60777F;
+}
+img{
+    display: grid;
+    width: 300px;
+    grid-template-columns: 40px 40px 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* .skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute ;
+    top: -40px;
+} */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #60777F;
+    color: white;
+    text-align: center;
+}
+.do{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: fit-content;
+}
+.card > header{
+    background: #60777F;
+    border: #45ADAD solid 2px;
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+}
